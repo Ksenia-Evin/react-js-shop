@@ -1,0 +1,46 @@
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: firebrick;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+header ul li {
+  margin: auto;
+}
+header ul li a{
+  text-decoration: none;
+  color: white;
+}
+header ul li a:hover{
+  color: grey;
+}
+
+main {
+  flex: 1;
+  font-size: 50px;
+  text-align: center;
+}
+
+footer {
+  background-color: firebrick;
+  color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
